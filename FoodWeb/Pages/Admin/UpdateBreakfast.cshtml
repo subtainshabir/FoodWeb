@@ -1,0 +1,52 @@
+﻿@page
+@model FoodWeb.Pages.Admin.UpdateBreakfastModel
+@{
+}
+<div class="row justify-content-center">
+    <div class="col-md-6 justify-content-center">
+        <h1>Update BreakFast</h1>
+        <hr />
+        <form method="post" enctype="multipart/form-data">
+            <div>
+                <label class="form-label">
+                    Dish Name
+                </label>
+                <input class="form-control" asp-for="breakfast.DishName" />
+                <input class="form-control" hidden asp-for="breakfast.id" />
+            </div>
+            <div>
+                <label class="form-label">
+                    Ingredients
+                </label>
+                <input class="form-control" asp-for="breakfast.Ingredients" />
+                
+            </div>
+            <div>
+                <label class="form-label">
+                    Price
+                </label>
+                <input class="form-control" asp-for="breakfast.Price" />
+            </div>
+            <div>
+
+                <label class="form-label">
+                    Image
+                </label>
+                <input class="form-control" asp-for="breakfast.Photo" />
+                <input class="form-control" hidden asp-for="breakfast.Image" />
+
+            </div>
+            <br />
+            <div>
+                <input type="submit" value="Update BreakFast" class="btn btn-primary" />
+            </div>
+
+        </form>
+    </div>
+    <div class="col-md-4 justify-content-center">
+        <div class="margin-top:150px; margin-left:200px">
+            <img src="~/menu_images/breakfast/@Model.breakfast.Image" height="180px" width="180px" />
+     
+        </div>
+     </div>
+</div>

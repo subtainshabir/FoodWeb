@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ynp/6HXevLiTPyTVK2fl45MqNgkdlfhLCn845+j4aBs=",
+  "Hash": "An+6B2DaMjIjfvEDpQN8OppdnTyweG/Ch6dfuW4HcGY=",
   "Source": "FoodWeb",
   "BasePath": "_content/FoodWeb",
   "Mode": "Default",
@@ -33284,6 +33284,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\menu_images\\breakfast\\egg.jpg",
+      "SourceId": "FoodWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\",
+      "BasePath": "_content/FoodWeb",
+      "RelativePath": "menu_images/breakfast/egg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\menu_images\\breakfast\\egg.jpg"
     }
   ]
 }
