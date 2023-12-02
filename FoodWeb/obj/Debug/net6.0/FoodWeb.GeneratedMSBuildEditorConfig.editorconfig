@@ -16,8 +16,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\DELL 5470 i5\Desktop\FoodWeb\FoodWeb\FoodWeb
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/AddIntro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRkSW50cm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/ShowIntro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2hvd0ludHJvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/_ViewStart.cshtml]

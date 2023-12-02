@@ -1,0 +1,32 @@
+﻿@page
+@model FoodWeb.Pages.ShowIntroModel
+@{
+}
+<div class="row justify-content-center">
+    <div class="justify-content-center col-md-8">
+        <h2>Show Introduction</h2>
+        <hr />
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Heading</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Video Link</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">@Model.intro.id</th>
+                    <td>@Model.intro.heading</td>
+                    <td>@Model.intro.desc</td>
+                    <td>@Model.intro.VideoLink</td>
+                    <td><input type="submit" value="Update" class="btn btn-success" /></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </div>
+</div>
