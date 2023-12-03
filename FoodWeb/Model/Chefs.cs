@@ -1,4 +1,6 @@
-﻿namespace FoodWeb.Model
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace FoodWeb.Model
 {
     public class Chefs
     {
@@ -6,7 +8,9 @@
         public string Name { get; set; }
         public string Designation { get; set; }
         public string Desc { get; set; }
-        public string Image { get; set; }
-       
+        public string? Image { get; set; }
+        [NotMapped]
+        public IFormFile? Photo { get; set; }
+
     }
 }

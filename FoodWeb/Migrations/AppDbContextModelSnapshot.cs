@@ -107,7 +107,6 @@ namespace FoodWeb.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Image")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
@@ -119,7 +118,7 @@ namespace FoodWeb.Migrations
                     b.ToTable("tbl_chefs");
                 });
 
-            modelBuilder.Entity("FoodWeb.Model.ContactUs", b =>
+            modelBuilder.Entity("FoodWeb.Model.ContactInfo", b =>
                 {
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd()
@@ -127,19 +126,26 @@ namespace FoodWeb.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ClosedDays")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Message")
+                    b.Property<string>("OpeningDays")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("OpeningTimings")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("subject")
+                    b.Property<string>("Phone")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -204,23 +210,6 @@ namespace FoodWeb.Migrations
                     b.HasKey("id");
 
                     b.ToTable("tbl_facts");
-                });
-
-            modelBuilder.Entity("FoodWeb.Model.Gallary", b =>
-                {
-                    b.Property<int>("id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
-
-                    b.Property<string>("Image")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("id");
-
-                    b.ToTable("tbl_gallay");
                 });
 
             modelBuilder.Entity("FoodWeb.Model.Introduction", b =>
@@ -345,6 +334,23 @@ namespace FoodWeb.Migrations
                     b.HasKey("id");
 
                     b.ToTable("tbl_orders");
+                });
+
+            modelBuilder.Entity("FoodWeb.Model.Pictures", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id");
+
+                    b.ToTable("tbl_gallay");
                 });
 
             modelBuilder.Entity("FoodWeb.Model.Question", b =>

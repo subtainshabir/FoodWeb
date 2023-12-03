@@ -1,0 +1,24 @@
+﻿@page
+@model FoodWeb.Pages.Admin.GallaryModel
+@{
+}
+<div class="row justify-content-center">
+    <div class="col-md-6 justify-content-center">
+        <h1>Add Picture</h1>
+        <hr />
+        <form method="post" enctype="multipart/form-data">
+            <div>
+
+                <label class="form-label">
+                    Image
+                </label>
+                <input class="form-control" asp-for="pictures.Photo" />
+            </div>
+            <br />
+            <div>
+                <input type="submit" value="Add BreakFast" class="btn btn-primary" />
+            </div>
+
+        </form>
+    </div>
+</div>

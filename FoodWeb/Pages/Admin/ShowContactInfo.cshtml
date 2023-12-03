@@ -1,0 +1,42 @@
+﻿@page
+@model FoodWeb.Pages.Admin.ShowContactInfoModel
+@{
+}
+<div class="row justify-content-center">
+    <div class="justify-content-center col-md-8">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Contact</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">Opened Days</th>
+                    <th scope="col">Opened Hours</th>
+                    <th scope="col">Closed Days</th>
+                    <th scope="col" colspan="2">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <th scope="row">@Model.contact.id</th>
+                    <th scope="row">@Model.contact.Email</th>
+                    <th scope="row">@Model.contact.Phone</th>
+                    <th scope="row">@Model.contact.Address</th>
+                    <th scope="row">@Model.contact.OpeningDays</th>
+                    <th scope="row">@Model.contact.OpeningTimings</th>
+                    <th scope="row">@Model.contact.ClosedDays</th>
+                        <td>
+                            <a class="btn btn-success" asp-page="UpdateBreakfast" asp-route-id="@Model.contact.id">Update</a>
+                        </td>
+                        <td>
+                            <a class="btn btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                
+
+
+            </tbody>
+        </table>
+    </div>
+</div>

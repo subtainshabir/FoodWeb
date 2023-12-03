@@ -1,0 +1,61 @@
+﻿@page
+@model FoodWeb.Pages.Admin.AddContactInfoModel
+@{
+}
+<div class="row justify-content-center">
+    <div class="col-md-6 justify-content-center">
+        <h2>Add Introduction Page</h2>
+        <br />
+        <hr />
+        <form method="post">
+            <div class="col-md-12 justify-content-center">
+                <label class="form-label">
+                    Email
+                </label>
+            </div>
+            <input class="form-control" asp-for="contactinfo.Email" />
+
+            <div class="col-md-12 justify-content-center">
+                <label class="form-label">
+                    Cell No
+                </label>
+            </div>
+            <input class="form-control" asp-for="contactinfo.Phone" />
+
+            <div class="col-md-12 justify-content-center">
+                <label class="form-label">
+                    Opened Days
+                </label>
+            </div>
+            <input class="form-control" asp-for="contactinfo.OpeningDays" />
+            
+             <div class="col-md-12 justify-content-center">
+                <label class="form-label">
+                    Opening Timing
+                </label>
+            </div>
+            <input class="form-control" asp-for="contactinfo.OpeningTimings" />
+
+            <div class="col-md-12 justify-content-center">
+                <label class="form-label">
+                    Closed Days
+                </label>
+            </div>
+            <input class="form-control" asp-for="contactinfo.ClosedDays" />
+
+            <div class="col-md-12 justify-content-center">
+                <label class="form-label">
+                    Address
+                </label>
+            </div>
+            <input class="form-control" asp-for="contactinfo.Address" />
+            <div>
+                <br />
+                <input type="submit" value="Submit" class="btn btn-success" />
+            </div>
+        </form>
+
+
+    </div>
+
+</div>

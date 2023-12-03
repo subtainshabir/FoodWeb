@@ -1,0 +1,39 @@
+﻿@page
+@model FoodWeb.Pages.Admin.ShowQuestionModel
+@{
+}
+<div class="row justify-content-center">
+    <div class="justify-content-center col-md-8">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Reason</th>
+                    <th scope="col">Service One</th>
+                    <th scope="col">Service Two</th>
+                    <th scope="col">Service Three</th>
+                    <th scope="col" colspan="2">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+               
+                    <tr>
+                        <th scope="row">@Model.question.id</th>
+                        <th >@Model.question.reson1</th>
+                        <td>@Model.question.service1</td>
+                        <td>@Model.question.service2</td>
+                        <td>@Model.question.service3</td>
+                        <td>
+                            <a class="btn btn-success" asp-page="UpdateBreakfast" asp-route-id="@Model.question.id">Update</a>
+                        </td>
+                        <td>
+                            <a class="btn btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                
+
+
+            </tbody>
+        </table>
+    </div>
+</div>

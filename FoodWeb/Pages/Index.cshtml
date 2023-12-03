@@ -388,92 +388,30 @@
                             <p>Menu</p>
                             <h3>Breakfast</h3>
                         </div>
-
                         <div class="row gy-5">
 
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-1.png" class="glightbox">
-                                    <img src="assets/img/menu/menu-item-1.png"
-                                         class="menu-img img-fluid" alt="">
-                                </a>
-                                <h4>Magnam Tiste</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $5.95
-                                </p>
-                            </div><!-- Menu Item -->
+                        @foreach (var item in Model.breakfast)
+                        {
+                                <div class="col-lg-4 menu-item">
+                                    <a href="~/menu_images//breakfast/@item.Image" class="glightbox">
+                                        <img src="~/menu_images//breakfast/@item.Image"
+                                             class="menu-img img-fluid" alt="">
+                                    </a>
 
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-2.png" class="glightbox">
-                                    <img src="assets/img/menu/menu-item-2.png"
-                                         class="menu-img img-fluid" alt="">
-                                </a>
-                                <h4>Aut Luia</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $14.95
-                                </p>
-                            </div><!-- Menu Item -->
+                                    <h4>@item.DishName</h4>
+                                    <p class="ingredients">
+                                        @item.Ingredients
+                                    </p>
+                                    <p class="price">
+                                       @item.Price
+                                    </p>
+                                </div><!-- Menu Item -->
+                                }
+                        
 
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-3.png" class="glightbox">
-                                    <img src="assets/img/menu/menu-item-3.png"
-                                         class="menu-img img-fluid" alt="">
-                                </a>
-                                <h4>Est Eligendi</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $8.95
-                                </p>
-                            </div><!-- Menu Item -->
+                            
 
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-4.png" class="glightbox">
-                                    <img src="assets/img/menu/menu-item-4.png"
-                                         class="menu-img img-fluid" alt="">
-                                </a>
-                                <h4>Eos Luibusdam</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $12.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-5.png" class="glightbox">
-                                    <img src="assets/img/menu/menu-item-5.png"
-                                         class="menu-img img-fluid" alt="">
-                                </a>
-                                <h4>Eos Luibusdam</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $12.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-6.png" class="glightbox">
-                                    <img src="assets/img/menu/menu-item-6.png"
-                                         class="menu-img img-fluid" alt="">
-                                </a>
-                                <h4>Laboriosam Direva</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $9.95
-                                </p>
-                            </div><!-- Menu Item -->
+                            
 
                         </div>
                     </div><!-- End Breakfast Menu Content -->
@@ -937,54 +875,44 @@
                          data-aos="zoom-out" data-aos-delay="200"></div>
 
                     <div class="col-lg-8 d-flex align-items-center reservation-form-bg">
-                        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up"
-                              data-aos-delay="100">
-                            <div class="row gy-4">
-                                <div class="col-lg-4 col-md-6">
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                                           data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                                    <div class="validate"></div>
+                       <div class="container justify-content-center">
+                            <form method="post" role="form" data-aos="fade-up"
+                                  data-aos-delay="100">
+                                <div class="row gy-4">
+                                    <div class="col-lg-4 col-md-6">
+                                        <input type="text" asp-for="@Model.order.Name" class="form-control" placeholder="Your Name">
+                                        <span class="text-danger" asp-validation-for="order.Name"></span>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <input asp-for="@Model.order.Email" class="form-control" placeholder="Your Email">
+                                        <span class="text-danger" asp-validation-for="order.Email"></span>
+
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <input asp-for="@Model.order.Phone" class="form-control" placeholder="Your Phone">
+                                        <span class="text-danger" asp-validation-for="order.Phone"></span>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <input asp-for="@Model.order.Date" class="form-control" placeholder="Date">
+                                        <span class="text-danger" asp-validation-for="order.Date"></span>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <input asp-for="@Model.order.Time" class="form-control" placeholder="Time">
+                                        <span class="text-danger" asp-validation-for="order.Time"></span>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <input asp-for="@Model.order.no_of_people" class="form-control" placeholder="# of people">
+                                        <span class="text-danger" asp-validation-for="order.no_of_people"></span>
+                                    </div>
                                 </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                                           data-rule="email" data-msg="Please enter a valid email">
-                                    <div class="validate"></div>
+                                <div class="form-group mt-3">
+                                    <textarea class="form-control" asp-for="@Model.order.Message" rows="5" placeholder="Message"></textarea>
+                                    <span class="text-danger" asp-validation-for="order.Message"></span>
                                 </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone"
-                                           data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                                    <div class="validate"></div>
-                                </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <input type="text" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4"
-                                           data-msg="Please enter at least 4 chars">
-                                    <div class="validate"></div>
-                                </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <input type="text" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4"
-                                           data-msg="Please enter at least 4 chars">
-                                    <div class="validate"></div>
-                                </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <input type="number" class="form-control" name="people" id="people" placeholder="# of people"
-                                           data-rule="minlen:1" data-msg="Please enter at least 1 chars">
-                                    <div class="validate"></div>
-                                </div>
-                            </div>
-                            <div class="form-group mt-3">
-                                <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
-                                <div class="validate"></div>
-                            </div>
-                            <div class="mb-3">
-                                <div class="loading">Loading</div>
-                                <div class="error-message"></div>
-                                <div class="sent-message">
-                                    Your booking request was sent. We will call back or send an Email to confirm
-                                    your reservation. Thank you!
-                                </div>
-                            </div>
-                            <div class="text-center"><button type="submit">Book a Table</button></div>
-                        </form>
+                                <br />
+                                <input type="submit" class="btn btn-primary" value="Book Table" />
+                            </form>
+                       </div>
                     </div><!-- End Reservation Form -->
 
                 </div>
@@ -1086,7 +1014,7 @@
                             <i class="icon bi bi-map flex-shrink-0"></i>
                             <div>
                                 <h3>Our Address</h3>
-                                <p>A108 Adam Street, New York, NY 535022</p>
+                                <p>@Model.contactinfo.Address</p>
                             </div>
                         </div>
                     </div><!-- End Info Item -->
@@ -1096,7 +1024,7 @@
                             <i class="icon bi bi-envelope flex-shrink-0"></i>
                             <div>
                                 <h3>Email Us</h3>
-                                <p>contact@example.com</p>
+                                <p>@Model.contactinfo.Email</p>
                             </div>
                         </div>
                     </div><!-- End Info Item -->
@@ -1106,7 +1034,7 @@
                             <i class="icon bi bi-telephone flex-shrink-0"></i>
                             <div>
                                 <h3>Call Us</h3>
-                                <p>+1 5589 55488 55</p>
+                                <p>@Model.contactinfo.Phone</p>
                             </div>
                         </div>
                     </div><!-- End Info Item -->
@@ -1117,37 +1045,14 @@
                             <div>
                                 <h3>Opening Hours</h3>
                                 <div>
-                                    <strong>Mon-Sat:</strong> 11AM - 23PM;
-                                    <strong>Sunday:</strong> Closed
+                                    <strong>@Model.contactinfo.OpeningDays:</strong>@Model.contactinfo.OpeningTimings;
                                 </div>
+                                
                             </div>
                         </div>
                     </div><!-- End Info Item -->
 
                 </div>
-
-                <form action="forms/contact.php" method="post" role="form" class="php-email-form p-3 p-md-4">
-                    <div class="row">
-                        <div class="col-xl-6 form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                        </div>
-                        <div class="col-xl-6 form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                    </div>
-                    <div class="my-3">
-                        <div class="loading">Loading</div>
-                        <div class="error-message"></div>
-                        <div class="sent-message">Your message has been sent. Thank you!</div>
-                    </div>
-                    <div class="text-center"><button type="submit">Send Message</button></div>
-                </form><!--End Contact Form -->
 
             </div>
         </section><!-- End Contact Section -->

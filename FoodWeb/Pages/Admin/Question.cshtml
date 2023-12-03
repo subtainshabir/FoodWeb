@@ -1,0 +1,42 @@
+﻿@page
+@model FoodWeb.Pages.Admin.QuestionModel
+@{
+}
+<div class="row justify-content-center">
+    <div class="col-md-6 justify-content-center">
+        <h1>Question Page</h1>
+        <hr />
+        <form method="post">
+            <div>
+                <label class="form-label">
+                    Reason of Choosing
+                </label>
+                <input class="form-control" asp-for="question.reson1" />
+            </div>
+            <div>
+                <label class="form-label">
+                    Service One
+                </label>
+                <input class="form-control" asp-for="question.service1" />
+            </div>
+            <div>
+                <label class="form-label">
+                    Service Two
+                </label>
+                <input class="form-control" asp-for="question.service2" />
+            </div>
+            <div>
+
+                <label class="form-label">
+                    Service 3
+                </label>
+                <input class="form-control" asp-for="question.service3" />
+            </div>
+            <br />
+            <div>
+                <input type="submit" value="Add Offer" class="btn btn-primary" />
+            </div>
+
+        </form>
+    </div>
+</div>

@@ -1,0 +1,42 @@
+﻿@page
+@model FoodWeb.Pages.Admin.AddLunchModel
+@{
+}
+<div class="row justify-content-center">
+    <div class="col-md-6 justify-content-center">
+        <h1>Add Lunch</h1>
+        <hr />
+        <form method="post" enctype="multipart/form-data">
+            <div>
+                <label class="form-label">
+                    Dish Name
+                </label>
+                <input class="form-control" asp-for="launch.DishName" />
+            </div>
+            <div>
+                <label class="form-label">
+                    Ingredients
+                </label>
+                <input class="form-control" asp-for="launch.Ingredients" />
+            </div>
+            <div>
+                <label class="form-label">
+                    Price
+                </label>
+                <input class="form-control" asp-for="launch.Price" />
+            </div>
+            <div>
+
+                <label class="form-label">
+                    Image
+                </label>
+                <input class="form-control" asp-for="launch.Photo" />
+            </div>
+            <br />
+            <div>
+                <input type="submit" value="Add Dish" class="btn btn-primary" />
+            </div>
+
+        </form>
+    </div>
+</div>

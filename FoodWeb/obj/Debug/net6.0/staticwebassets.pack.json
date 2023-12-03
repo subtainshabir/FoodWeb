@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\FoodWeb.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\Gallary\\alex.jpg",
+      "PackagePath": "staticwebassets\\Gallary\\alex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\Gallary\\ca-creative-bpPTlXWTOvg-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Gallary\\ca-creative-bpPTlXWTOvg-unsplash.jpg"
+    },
+    {
       "Id": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\admin_assets\\css\\sb-admin-2.css",
       "PackagePath": "staticwebassets\\admin_assets\\css\\sb-admin-2.css"
     },
@@ -7821,12 +7829,36 @@
       "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.js.map"
     },
     {
+      "Id": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\chefs\\alex.jpg",
+      "PackagePath": "staticwebassets\\chefs\\alex.jpg"
+    },
+    {
       "Id": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\menu_images\\Lunch\\sara-dubler-upn2p9co0I0-unsplash.jpg",
+      "PackagePath": "staticwebassets\\menu_images\\Lunch\\sara-dubler-upn2p9co0I0-unsplash.jpg"
+    },
+    {
       "Id": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\menu_images\\breakfast\\egg.jpg",
       "PackagePath": "staticwebassets\\menu_images\\breakfast\\egg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\menu_images\\dinner\\ca-creative-bpPTlXWTOvg-unsplash.jpg",
+      "PackagePath": "staticwebassets\\menu_images\\dinner\\ca-creative-bpPTlXWTOvg-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\menu_images\\starter\\marissa-grootes-4Cw151Z_hAw-unsplash.jpg",
+      "PackagePath": "staticwebassets\\menu_images\\starter\\marissa-grootes-4Cw151Z_hAw-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\offers\\nick-fewings-kmLUcvhqhSo-unsplash.jpg",
+      "PackagePath": "staticwebassets\\offers\\nick-fewings-kmLUcvhqhSo-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\testimonial\\274315666_1142358443260484_1997822315698004606_n.jpg",
+      "PackagePath": "staticwebassets\\testimonial\\274315666_1142358443260484_1997822315698004606_n.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.FoodWeb.Microsoft.AspNetCore.StaticWebAssets.props",

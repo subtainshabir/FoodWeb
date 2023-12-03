@@ -1,0 +1,42 @@
+﻿@page
+@model FoodWeb.Pages.Admin.AddStarterModel
+@{
+}
+<div class="row justify-content-center">
+    <div class="col-md-6 justify-content-center">
+        <h1>Add Starter</h1>
+        <hr />
+        <form method="post" enctype="multipart/form-data">
+            <div>
+                <label class="form-label">
+                    Dish Name
+                </label>
+                <input class="form-control" asp-for="starter.DishName" />
+            </div>
+            <div>
+                <label class="form-label">
+                    Ingredients
+                </label>
+                <input class="form-control" asp-for="starter.Ingredients" />
+            </div>
+            <div>
+                <label class="form-label">
+                    Price
+                </label>
+                <input class="form-control" asp-for="starter.Price" />
+            </div>
+            <div>
+
+                <label class="form-label">
+                    Image
+                </label>
+                <input class="form-control" asp-for="starter.Photo" />
+            </div>
+            <br />
+            <div>
+                <input type="submit" value="Add Dish" class="btn btn-primary" />
+            </div>
+
+        </form>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+﻿@page
+@model FoodWeb.Pages.Admin.ShowStarterModel
+@{
+}
+<div class="row justify-content-center">
+    <div class="justify-content-center col-md-8">
+        <h1>Starter Dishes</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Dish Name</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Image</th>
+                    <th scope="col">Ingredients</th>
+                    <th scope="col" colspan="2">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.starter)
+                {
+                    <tr>
+                        <th scope="row">@item.id</th>
+                        <td>@item.DishName</td>
+                        <td>@item.Price</td>
+                        <td>@item.Image</td>
+                        <td>@item.Ingredients</td>
+                        <td>
+                            <a class="btn btn-success" asp-page="UpdateBreakfast" asp-route-id="@item.id">Update</a>
+                        </td>
+                        <td>
+                            <a class="btn btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+
+
+            </tbody>
+        </table>
+    </div>
+</div>

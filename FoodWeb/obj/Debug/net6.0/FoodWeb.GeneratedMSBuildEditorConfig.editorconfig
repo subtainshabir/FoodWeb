@@ -20,20 +20,96 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRkQnJlYWtGYXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/AddChef.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRkQ2hlZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/AddContactInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRkQ29udGFjdEluZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/AddDinner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRkRGlubmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/AddIntro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRkSW50cm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/AddLunch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRkTHVuY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/AddOffers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRkT2ZmZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/AddStarter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRkU3RhcnRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/Facts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRmFjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/Gallary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cR2FsbGFyeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/Question.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUXVlc3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/ShowBreakfast.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2hvd0JyZWFrZmFzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/ShowChefs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2hvd0NoZWZzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/ShowContactInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2hvd0NvbnRhY3RJbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/ShowDinner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2hvd0Rpbm5lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/ShowFacts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2hvd0ZhY3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/ShowIntro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2hvd0ludHJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/ShowLunch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2hvd0x1bmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/ShowOffer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2hvd09mZmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/ShowQuestion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2hvd1F1ZXN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/ShowStarter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2hvd1N0YXJ0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/ShowTestimonial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2hvd1Rlc3RpbW9uaWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/Testimonial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVGVzdGltb25pYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/UpdateBreakfast.cshtml]
