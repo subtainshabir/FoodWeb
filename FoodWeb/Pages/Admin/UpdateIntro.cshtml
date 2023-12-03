@@ -1,0 +1,41 @@
+﻿@page
+@model FoodWeb.Pages.Admin.UpdateIntroModel
+@{
+}
+<div class="row justify-content-center">
+    <div class="col-md-6 justify-content-center">
+        <h2>Update Introduction Page</h2>
+        <br />
+        <hr />
+        <form method="post">
+            <div class="col-md-12 justify-content-center">
+                <label class="form-label">
+                    Heading
+                </label>
+            </div>
+            <input class="form-control" asp-for="intro.heading" />
+            <input class="form-control" hidden asp-for="intro.id" />
+
+            <div class="col-md-12 justify-content-center">
+                <label class="form-label">
+                    Description
+                </label>
+            </div>
+            <input class="form-control" asp-for="intro.desc" />
+
+            <div class="col-md-12 justify-content-center">
+                <label class="form-label">
+                    Video Link
+                </label>
+            </div>
+            <input class="form-control" asp-for="intro.VideoLink" />
+            <div>
+                <br />
+                <input type="submit" value="Submit" class="btn btn-success" />
+            </div>
+        </form>
+
+
+    </div>
+
+</div>

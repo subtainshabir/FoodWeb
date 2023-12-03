@@ -5,24 +5,26 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace FoodWeb.Pages.Admin
 {
-    public class AddIntroModel : PageModel
+    public class UpdateIntroModel : PageModel
     {
-        AppDbContext db;
         public Introduction intro { get; set; }
-        public AddIntroModel(AppDbContext db)
+        AppDbContext db;
+        public UpdateIntroModel(AppDbContext db)
         {
             this.db = db;
         }
-        public void OnGet()
+        public void OnGet(int id)
         {
+            var itemtoupdate=db.tbl_intro.Find(id);
+            intro = itemtoupdate;
         }
         public IActionResult OnPost(Introduction intro)
         {
-            db.tbl_intro.Add(intro);
+            db.tbl_intro.Update(intro);
             db.SaveChanges();
             return RedirectToPage("ShowIntro");
-          
-        }
 
+        }
     }
+
 }

@@ -11,6 +11,9 @@ namespace FoodWeb.Pages
         public Orders order { get; set; }
         public List<BreakFast> breakfast { get; set; }
         public ContactInfo contactinfo { get; set; }
+        public Introduction intro { get; set; }
+        public Question question { get; set; }
+
 
 
         public IndexModel(AppDbContext db)
@@ -22,6 +25,8 @@ namespace FoodWeb.Pages
         {
             contactinfo=db.tbl_contact.FirstOrDefault();
             breakfast=db.tbl_breakfast.ToList();
+            intro = db.tbl_intro.FirstOrDefault();
+            question = db.tbl_question.FirstOrDefault();
             
         }
         public IActionResult OnPost(Orders order)
