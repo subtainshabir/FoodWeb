@@ -14,7 +14,6 @@ namespace FoodWeb.Pages.Admin
         {
             this.db = db;
             this.env = env;
-            
         }
         public void OnGet(int id)
         {
@@ -29,24 +28,20 @@ namespace FoodWeb.Pages.Admin
                 var Folderpath = Path.Combine(env.WebRootPath, "menu_images", "breakfast");
                 var ImagePath= Path.Combine(Folderpath, ImageName);
 
-                FileStream fs=new FileStream(ImagePath, FileMode.Create);
+                var fs=new FileStream(ImagePath, FileMode.Create);
                 breakfast.Photo.CopyTo(fs);
-
 
                 breakfast.Image = ImageName;
                 db.tbl_breakfast.Update(breakfast);
                 db.SaveChanges();
-
+                return Redirect($"UpdateBreakfast?id={breakfast.id}");
             }
             else
             {
-
                 db.tbl_breakfast.Update(breakfast);
                 db.SaveChanges();
-
+                return Redirect($"UpdateBreakfast?id={breakfast.id}");
             }
-            return RedirectToPage("updatebreakfast");
-            
         }
     }
 }
