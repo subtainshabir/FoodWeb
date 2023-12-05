@@ -31,12 +31,15 @@
                     Image
                 </label>
                 <input class="form-control" asp-for="testimonial.Photo" />
+                <input class="form-control" hidden asp-for="testimonial.id" />
+                <input class="form-control" hidden asp-for="testimonial.Image" />
             </div>
             <br />
             <div>
-                <input type="submit" value="Add Testimonial" class="btn btn-primary" />
+                <input type="submit" value="Update Testimonial" class="btn btn-primary" />
             </div>
 
         </form>
     </div>
+    
 </div>

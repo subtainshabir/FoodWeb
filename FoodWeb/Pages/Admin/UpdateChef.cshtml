@@ -1,0 +1,50 @@
+﻿@page
+@model FoodWeb.Pages.Admin.UpdateChefModel
+@{
+}
+<div class="row justify-content-center">
+    <div class="col-md-6 justify-content-center">
+        <h1>Update Chefs</h1>
+        <hr />
+        <form method="post" enctype="multipart/form-data">
+            <div>
+                <label class="form-label">
+                    Name
+                </label>
+                <input class="form-control" asp-for="chef.Name" />
+                <input class="form-control" hidden asp-for="chef.id" />
+            </div>
+            <div>
+                <label class="form-label">
+                    Designation
+                </label>
+                <input class="form-control" asp-for="chef.Designation" />
+            </div>
+            <div>
+                <label class="form-label">
+                    Description
+                </label>
+                <input class="form-control" asp-for="chef.Desc" />
+            </div>
+            <div>
+
+                <label class="form-label">
+                    Image
+                </label>
+                <input class="form-control" asp-for="chef.Photo" />
+                <input class="form-control" hidden asp-for="chef.Image" />
+            </div>
+            <br />
+            <div>
+                <input type="submit" value="Update Chef" class="btn btn-primary" />
+            </div>
+
+        </form>
+    </div>
+    <div class="col-md-4 justify-content-center">
+        <div class="margin-top:150px; margin-left:200px">
+            <img src="~/chefs/@Model.chef.Image" height="180px" width="180px" />
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,50 @@
+﻿@page
+@model FoodWeb.Pages.Admin.UpdateTestimonialModel
+@{
+}
+<div class="row justify-content-center">
+    <div class="col-md-6 justify-content-center">
+        <h1>Update Testimonial</h1>
+        <hr />
+        <form method="post" enctype="multipart/form-data">
+            <div>
+                <label class="form-label">
+                    Name
+                </label>
+                <input class="form-control" asp-for="testimonial.Name" />
+                <input class="form-control" hidden asp-for="testimonial.id" />
+            </div>
+            <div>
+                <label class="form-label">
+                    Review
+                </label>
+                <input class="form-control" asp-for="testimonial.Review" />
+            </div>
+            <div>
+                <label class="form-label">
+                    Designation
+                </label>
+                <input class="form-control" asp-for="testimonial.Designation" />
+            </div>
+            <div>
+
+                <label class="form-label">
+                    Image
+                </label>
+                <input class="form-control" asp-for="testimonial.Photo" />
+                <input class="form-control" hidden asp-for="testimonial.Image" />
+            </div>
+            <br />
+            <div>
+                <input type="submit" value="Add Testimonial" class="btn btn-primary" />
+            </div>
+
+        </form>
+    </div>
+    <div class="col-md-4 justify-content-center">
+        <div class="margin-top:150px; margin-left:200px">
+            <img src="~/testimonial/@Model.testimonial.Image" height="180px" width="180px" />
+
+        </div>
+    </div>
+</div>
