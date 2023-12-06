@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CRPfij35S+ModEZc3zco1/34WqYoK/aZOJ845+ZZv8k=",
+  "Hash": "taL341hMq9SRQsYMaGdhOj+2LeanuBk/Ko3pIKn8QJg=",
   "Source": "FoodWeb",
   "BasePath": "_content/FoodWeb",
   "Mode": "Default",
@@ -33556,6 +33556,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\menu_images\\breakfast\\sebastian-coman-photography-A8zTJZ57rvM-unsplash.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\menu_images\\dinner\\adam-jaime-oFljzK61O1s-unsplash.jpg",
+      "SourceId": "FoodWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\",
+      "BasePath": "_content/FoodWeb",
+      "RelativePath": "menu_images/dinner/adam-jaime-oFljzK61O1s-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\menu_images\\dinner\\adam-jaime-oFljzK61O1s-unsplash.jpg"
     },
     {
       "Identity": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\menu_images\\dinner\\ca-creative-bpPTlXWTOvg-unsplash.jpg",
