@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "taL341hMq9SRQsYMaGdhOj+2LeanuBk/Ko3pIKn8QJg=",
+  "Hash": "I7tBwUwR0AYSyoxMvrqdAm+JnWUrJ1zBHyrqWzGYVTI=",
   "Source": "FoodWeb",
   "BasePath": "_content/FoodWeb",
   "Mode": "Default",
@@ -33590,6 +33590,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\menu_images\\dinner\\ca-creative-bpPTlXWTOvg-unsplash.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\menu_images\\dinner\\marissa-grootes-4Cw151Z_hAw-unsplash.jpg",
+      "SourceId": "FoodWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\",
+      "BasePath": "_content/FoodWeb",
+      "RelativePath": "menu_images/dinner/marissa-grootes-4Cw151Z_hAw-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\menu_images\\dinner\\marissa-grootes-4Cw151Z_hAw-unsplash.jpg"
     },
     {
       "Identity": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\menu_images\\Lunch\\adam-jaime-oFljzK61O1s-unsplash.jpg",

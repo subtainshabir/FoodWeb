@@ -128,8 +128,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXBkYXRlRGlubmVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/UpdateFacts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXBkYXRlRmFjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/UpdateIntro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXBkYXRlSW50cm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/UpdateLunch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXBkYXRlTHVuY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/FoodWeb/Pages/Admin/UpdateTestimonial.cshtml]
