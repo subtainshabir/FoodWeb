@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "I7tBwUwR0AYSyoxMvrqdAm+JnWUrJ1zBHyrqWzGYVTI=",
+  "Hash": "duDbHlIIsdjM9YnefaNoFVrAJ4DrJqoW6boQxPhgSM0=",
   "Source": "FoodWeb",
   "BasePath": "_content/FoodWeb",
   "Mode": "Default",
@@ -33643,6 +33643,23 @@
       "OriginalItemSpec": "wwwroot\\menu_images\\Lunch\\alice-pasqual-kGhE19cNqds-unsplash.jpg"
     },
     {
+      "Identity": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\menu_images\\Lunch\\marissa-grootes-4Cw151Z_hAw-unsplash.jpg",
+      "SourceId": "FoodWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\",
+      "BasePath": "_content/FoodWeb",
+      "RelativePath": "menu_images/Lunch/marissa-grootes-4Cw151Z_hAw-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\menu_images\\Lunch\\marissa-grootes-4Cw151Z_hAw-unsplash.jpg"
+    },
+    {
       "Identity": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\menu_images\\Lunch\\sara-dubler-upn2p9co0I0-unsplash.jpg",
       "SourceId": "FoodWeb",
       "SourceType": "Discovered",
@@ -33709,6 +33726,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\menu_images\\starter\\sebastian-coman-photography-ZGgIYaL9lYk-unsplash.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\offers\\adam-jaime-oFljzK61O1s-unsplash.jpg",
+      "SourceId": "FoodWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\",
+      "BasePath": "_content/FoodWeb",
+      "RelativePath": "offers/adam-jaime-oFljzK61O1s-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\offers\\adam-jaime-oFljzK61O1s-unsplash.jpg"
     },
     {
       "Identity": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\offers\\nick-fewings-kmLUcvhqhSo-unsplash.jpg",

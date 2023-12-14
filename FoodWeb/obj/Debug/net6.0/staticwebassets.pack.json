@@ -7877,6 +7877,10 @@
       "PackagePath": "staticwebassets\\menu_images\\Lunch\\alice-pasqual-kGhE19cNqds-unsplash.jpg"
     },
     {
+      "Id": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\menu_images\\Lunch\\marissa-grootes-4Cw151Z_hAw-unsplash.jpg",
+      "PackagePath": "staticwebassets\\menu_images\\Lunch\\marissa-grootes-4Cw151Z_hAw-unsplash.jpg"
+    },
+    {
       "Id": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\menu_images\\Lunch\\sara-dubler-upn2p9co0I0-unsplash.jpg",
       "PackagePath": "staticwebassets\\menu_images\\Lunch\\sara-dubler-upn2p9co0I0-unsplash.jpg"
     },
@@ -7923,6 +7927,10 @@
     {
       "Id": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\menu_images\\starter\\sebastian-coman-photography-dUqX2Eq-2jk-unsplash.jpg",
       "PackagePath": "staticwebassets\\menu_images\\starter\\sebastian-coman-photography-dUqX2Eq-2jk-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\offers\\adam-jaime-oFljzK61O1s-unsplash.jpg",
+      "PackagePath": "staticwebassets\\offers\\adam-jaime-oFljzK61O1s-unsplash.jpg"
     },
     {
       "Id": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\wwwroot\\offers\\nick-fewings-kmLUcvhqhSo-unsplash.jpg",
