@@ -1,0 +1,48 @@
+﻿@page
+@model FoodWeb.Pages.Admin.UpdateStarterModel
+@{
+}
+<div class="row justify-content-center">
+    <div class="col-md-6 justify-content-center">
+        <h1>Update Starter</h1>
+        <hr />
+        <form method="post" enctype="multipart/form-data">
+            <div>
+                <label class="form-label">
+                    Dish Name
+                </label>
+                
+                <input class="form-control" asp-for="starter.DishName" />
+            </div>
+            <div>
+                <label class="form-label">
+                    Ingredients
+                </label>
+                <input class="form-control" asp-for="starter.Ingredients" />
+            </div>
+            <div>
+                <label class="form-label">
+                    Price
+                </label>
+                <input class="form-control" asp-for="starter.Price" />
+                <input class="form-control" hidden asp-for="starter.id" />
+            </div>
+            <div>
+
+                <label class="form-label">
+                    Image
+                </label>
+                <input class="form-control" asp-for="starter.Photo" />
+            </div>
+            <br />
+            <div>
+                <input type="submit" value="Add Dish" class="btn btn-primary" />
+            </div>
+
+        </form>
+    </div>
+    <div class="col-md-4 justify-content-center">
+        <div class="margin-top:150px; margin-left:200px">
+            <img src="~/menu_images/starter/@Model.starter.Image" height="180px" width="180px" />
+        </div>
+</div>

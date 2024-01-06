@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\FoodWeb.csproj": {}
+    "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\FoodWeb.csproj": {
+    "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\FoodWeb.csproj",
+        "projectUniqueName": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb.csproj",
         "projectName": "FoodWeb",
-        "projectPath": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\FoodWeb.csproj",
+        "projectPath": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb.csproj",
         "packagesPath": "C:\\Users\\DELL 5470 i5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\FoodWeb\\obj\\",
+        "outputPath": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL 5470 i5\\AppData\\Roaming\\NuGet\\NuGet.Config",

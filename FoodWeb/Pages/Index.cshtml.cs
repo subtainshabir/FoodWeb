@@ -20,6 +20,7 @@ namespace FoodWeb.Pages
         public List<Testimonial> testimonial { get; set; }
         public List<Starter> starter { get; set; }
         public List<Launch> lunch { get; set; }
+        public List<Dinner> dinner { get; set; }
 
         public IndexModel(AppDbContext db)
         {
@@ -38,6 +39,7 @@ namespace FoodWeb.Pages
             testimonial = db.tbl_testimonial.ToList();
             starter = db.tbl_starter.ToList();
             lunch = db.tbl_launch.ToList();
+            dinner = db.tbl_dinner.ToList();
             
         }
         public IActionResult OnPost(Orders order)
