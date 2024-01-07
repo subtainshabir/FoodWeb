@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\DELL 5470 i5\Desktop\FoodWeb\FoodWeb
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/Pages/Admin/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWJvdXRVcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/Pages/Admin/AddBreakFast.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRkQnJlYWtGYXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -60,8 +64,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/Pages/Admin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/Pages/Admin/Question.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUXVlc3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/Pages/Admin/ShowAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2hvd0Fib3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/DELL 5470 i5/Desktop/FoodWeb/FoodWeb/Pages/Admin/ShowBreakfast.cshtml]

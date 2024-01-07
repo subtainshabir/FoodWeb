@@ -26,6 +26,7 @@
     <Folder Include="wwwroot\Gallary\" />
     <Folder Include="wwwroot\menu_images\Lunch\" />
     <Folder Include="wwwroot\menu_images\starter\" />
+    <Folder Include="wwwroot\about_us\" />
     <Folder Include="wwwroot\testimonial\" />
     <Folder Include="wwwroot\offers\" />
   </ItemGroup>

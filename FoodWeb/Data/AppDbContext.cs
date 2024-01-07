@@ -22,6 +22,7 @@ namespace FoodWeb.Data
         public DbSet<Question> tbl_question { get; set; }
         public DbSet<Starter> tbl_starter { get; set; }
         public DbSet<Testimonial> tbl_testimonial { get; set; }
+        public DbSet<User> tbl_user { get; set; }
 
 
     }

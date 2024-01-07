@@ -439,6 +439,27 @@ namespace FoodWeb.Migrations
 
                     b.ToTable("tbl_testimonial");
                 });
+
+            modelBuilder.Entity("FoodWeb.Model.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("PassKey")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("tbl_user");
+                });
 #pragma warning restore 612, 618
         }
     }

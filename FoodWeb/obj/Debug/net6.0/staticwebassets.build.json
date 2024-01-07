@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "o1ixTO4ZS+dPqG6CPJUPkG0izW0nKLwvci9VZhibZeE=",
+  "Hash": "FHKsY0GMsweKTpOUYrvnN6XbFLZSs+t6HGKKxxv99BI=",
   "Source": "FoodWeb",
   "BasePath": "_content/FoodWeb",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FoodWeb.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\wwwroot\\about_us\\download.jpg",
+      "SourceId": "FoodWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\wwwroot\\",
+      "BasePath": "_content/FoodWeb",
+      "RelativePath": "about_us/download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\about_us\\download.jpg"
     },
     {
       "Identity": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\wwwroot\\admin_assets\\css\\sb-admin-2.css",

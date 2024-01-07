@@ -21,6 +21,7 @@ namespace FoodWeb.Pages
         public List<Starter> starter { get; set; }
         public List<Launch> lunch { get; set; }
         public List<Dinner> dinner { get; set; }
+        public AboutUs about { get; set; }
 
         public IndexModel(AppDbContext db)
         {
@@ -40,6 +41,7 @@ namespace FoodWeb.Pages
             starter = db.tbl_starter.ToList();
             lunch = db.tbl_launch.ToList();
             dinner = db.tbl_dinner.ToList();
+            about = db.tbl_about.FirstOrDefault();
             
         }
         public IActionResult OnPost(Orders order)

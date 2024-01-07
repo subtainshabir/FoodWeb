@@ -1,0 +1,39 @@
+﻿@page
+@model FoodWeb.Pages.Admin.ShowAboutModel
+@{
+}
+<div class="row justify-content-center">
+    <div class="justify-content-center col-md-12">
+        <h2>Show About Us</h2>
+        <hr />
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Top Description</th>
+                    <th scope="col">Point 1</th>
+                    <th scope="col">Point 2</th>
+                    <th scope="col">Point 3</th>
+                    <th scope="col">Bottom Description</th>
+                    <th scope="col">Contact</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">@Model.about.id</th>
+                    <td>@Model.about.desc1</td>
+                    <td>@Model.about.Point1</td>
+                    <td>@Model.about.Point2</td>
+                    <td>@Model.about.Point3</td>
+                    <td>@Model.about.desc2</td>
+                    <td>@Model.about.contact</td>
+
+                    <td> <a class="btn btn-success" asp-page="UpdateAbout" asp-route-id="@Model.about.id">Update</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </div>
+</div>
