@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 string Constring = builder.Configuration.GetConnectionString("ConStr").ToString();
 builder.Services.AddDbContext<AppDbContext>(options=>options.UseSqlServer(Constring));
+builder.Services.AddSession();
 
 var app = builder.Build();
 
@@ -19,7 +20,10 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
 app.UseStaticFiles();
+
+app.UseSession();
 
 app.UseRouting();
 

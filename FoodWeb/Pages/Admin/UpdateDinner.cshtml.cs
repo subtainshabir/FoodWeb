@@ -18,10 +18,19 @@ namespace FoodWeb.Pages.Admin
         }
         
             
-            public void OnGet(int id)
+            public IActionResult OnGet(int id)
         {
             var itemtoupdate = db.tbl_dinner.Find(id);
             dinner = itemtoupdate;
+            var flag = HttpContext.Session.GetString("flag");
+            if (flag != "true")
+            {
+                return RedirectToPage("Login");
+            }
+            else
+            {
+                return Page();
+            }
         }
         public IActionResult OnPost(Dinner dinner)
         {

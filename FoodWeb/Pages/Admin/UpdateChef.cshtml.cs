@@ -16,10 +16,19 @@ namespace FoodWeb.Pages.Admin
             this.db = db;
             this.env = env;
         }
-        public void OnGet(int id)
+        public IActionResult OnGet(int id)
         {
             var itemtoupdate = db.tbl_chefs.Find(id);
             chef = itemtoupdate;
+            var flag = HttpContext.Session.GetString("flag");
+            if (flag != "true")
+            {
+                return RedirectToPage("Login");
+            }
+            else
+            {
+                return Page();
+            }
         }
         public IActionResult OnPost(Chefs chef)
         { 

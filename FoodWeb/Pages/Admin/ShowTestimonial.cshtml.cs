@@ -13,9 +13,18 @@ namespace FoodWeb.Pages.Admin
         {
             this.db = db;
         }
-        public void OnGet()
+        public IActionResult OnGet()
         {
             testimonial = db.tbl_testimonial.ToList();
+            var flag = HttpContext.Session.GetString("flag");
+            if (flag != "true")
+            {
+                return RedirectToPage("Login");
+            }
+            else
+            {
+                return Page();
+            }
         }
     }
 }

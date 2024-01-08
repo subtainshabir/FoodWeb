@@ -13,10 +13,19 @@ namespace FoodWeb.Pages.Admin
         {
             this.db = db;
         }
-        public void OnGet(int id)
+        public IActionResult OnGet(int id)
         {
             var itemtoupdate=db.tbl_intro.Find(id);
             intro = itemtoupdate;
+            var flag = HttpContext.Session.GetString("flag");
+            if (flag != "true")
+            {
+                return RedirectToPage("Login");
+            }
+            else
+            {
+                return Page();
+            }
         }
         public IActionResult OnPost(Introduction intro)
         {

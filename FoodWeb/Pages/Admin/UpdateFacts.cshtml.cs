@@ -13,9 +13,18 @@ namespace FoodWeb.Pages.Admin
         {
             this.db = db;
         }
-        public void OnGet(int id)
+        public IActionResult OnGet(int id)
         {
             fact = db.tbl_facts.Find(id);
+            var flag = HttpContext.Session.GetString("flag");
+            if (flag != "true")
+            {
+                return RedirectToPage("Login");
+            }
+            else
+            {
+                return Page();
+            }
         }
         public IActionResult OnPost(Facts fact)
         {

@@ -14,9 +14,18 @@ namespace FoodWeb.Pages
         {
             this.db = db;
         }
-        public void OnGet()
+        public IActionResult OnGet()
         {
             intro = db.tbl_intro.FirstOrDefault();
+            var flag = HttpContext.Session.GetString("flag");
+            if (flag != "true")
+            {
+                return RedirectToPage("Login");
+            }
+            else
+            {
+                return Page();
+            }
         }
     }
 }

@@ -16,8 +16,17 @@ namespace FoodWeb.Pages.Admin
             this.env = env;
 
         }
-        public void OnGet()
+        public IActionResult OnGet()
         {
+            var flag = HttpContext.Session.GetString("flag");
+            if (flag != "true")
+            {
+                return RedirectToPage("Login");
+            }
+            else
+            {
+                return Page();
+            }
         }
         public IActionResult OnPost(BreakFast breakFast)
         {
