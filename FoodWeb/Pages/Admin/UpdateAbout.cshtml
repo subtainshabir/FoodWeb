@@ -1,0 +1,67 @@
+﻿@page
+@model FoodWeb.Pages.Admin.UpdateAboutModel
+@{
+}
+<div class="row justify-content-center">
+    <div class="col-md-6 justify-content-center">
+        <h1>About Us Page</h1>
+        <hr />
+        <form method="post" enctype="multipart/form-data">
+            <div>
+                <label class="form-label">
+                    Top Description
+                </label>
+                <input class="form-control" asp-for="about.desc1" />
+                <input class="form-control" hidden asp-for="about.id" />
+            </div>
+            <div>
+                <label class="form-label">
+                    Point 1
+                </label>
+                <input class="form-control" asp-for="about.Point1" />
+            </div>
+            <div>
+                <label class="form-label">
+                    Point 2
+                </label>
+                <input class="form-control" asp-for="about.Point2" />
+            </div>
+            <div>
+                <label class="form-label">
+                    Point 3
+                </label>
+                <input class="form-control" asp-for="about.Point3" />
+            </div>
+            <div>
+                <label class="form-label">
+                    Bottom Description
+                </label>
+                <input class="form-control" asp-for="about.desc2" />
+            </div>
+            <div>
+                <label class="form-label">
+                    Contact No
+                </label>
+                <input class="form-control" asp-for="about.contact" />
+            </div>
+            <div>
+
+                <label class="form-label">
+                    Image
+                </label>
+                <input class="form-control" asp-for="about.Photo" />
+                <input class="form-control" hidden asp-for="about.Image" />
+            </div>
+            <br />
+            <div>
+                <input type="submit" value="Add Details" class="btn btn-primary" />
+            </div>
+
+        </form>
+    </div>
+    <div class="col-md-4 justify-content-center">
+        <div class="margin-top:150px; margin-left:200px">
+            <img src="~/about_us/@Model.about.Image" height="180px" width="180px" />
+        </div>
+    </div>
+</div>

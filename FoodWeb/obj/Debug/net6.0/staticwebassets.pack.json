@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\about_us\\download.jpg"
     },
     {
+      "Id": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\wwwroot\\about_us\\marek-mucha-tAFWFWrWGyE-unsplash.jpg",
+      "PackagePath": "staticwebassets\\about_us\\marek-mucha-tAFWFWrWGyE-unsplash.jpg"
+    },
+    {
       "Id": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\wwwroot\\admin_assets\\css\\sb-admin-2.css",
       "PackagePath": "staticwebassets\\admin_assets\\css\\sb-admin-2.css"
     },
@@ -7941,8 +7945,16 @@
       "PackagePath": "staticwebassets\\offers\\adam-jaime-oFljzK61O1s-unsplash.jpg"
     },
     {
+      "Id": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\wwwroot\\offers\\marek-mucha-tAFWFWrWGyE-unsplash.jpg",
+      "PackagePath": "staticwebassets\\offers\\marek-mucha-tAFWFWrWGyE-unsplash.jpg"
+    },
+    {
       "Id": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\wwwroot\\offers\\nick-fewings-kmLUcvhqhSo-unsplash.jpg",
       "PackagePath": "staticwebassets\\offers\\nick-fewings-kmLUcvhqhSo-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\wwwroot\\offers\\thomas-william-Q3PzwHKpEdc-unsplash.jpg",
+      "PackagePath": "staticwebassets\\offers\\thomas-william-Q3PzwHKpEdc-unsplash.jpg"
     },
     {
       "Id": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\wwwroot\\testimonial\\274315666_1142358443260484_1997822315698004606_n.jpg",

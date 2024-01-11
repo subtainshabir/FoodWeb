@@ -3,14 +3,14 @@
 @{
 }
 <div class="row justify-content-center">
-    <div class="justify-content-center col-md-8">
+    <div class="justify-content-center col-md-12">
         <table class="table">
             <thead>
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">Dish Name</th>
-                    <th scope="col">Price</th>
-                    <th scope="col">Image</th>
+                    <th scope="col">Price</th>                 
+                    <th scope="col">Ingredients</th>
                     <th scope="col">Ingredients</th>
                     <th scope="col" colspan="2">Action</th>
                 </tr>
@@ -22,8 +22,9 @@
                         <th scope="row">@item.id</th>
                         <td>@item.DishName</td>
                         <td>@item.Price</td>
-                        <td>@item.Image</td>
                         <td>@item.Ingredients</td>
+                        <td><img src="~/menu_images/Lunch/@item.Image" height="80px" width="80px" /></td>
+
                         <td>
                             <a class="btn btn-success" asp-page="UpdateLunch" asp-route-id="@item.id">Update</a>
                         </td>

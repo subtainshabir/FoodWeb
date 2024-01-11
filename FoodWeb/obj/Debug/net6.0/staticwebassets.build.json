@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FHKsY0GMsweKTpOUYrvnN6XbFLZSs+t6HGKKxxv99BI=",
+  "Hash": "vAazybu025LT37E11cg9Si/RTisfPqdv2pwTJugZ1Vg=",
   "Source": "FoodWeb",
   "BasePath": "_content/FoodWeb",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\about_us\\download.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\wwwroot\\about_us\\marek-mucha-tAFWFWrWGyE-unsplash.jpg",
+      "SourceId": "FoodWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\wwwroot\\",
+      "BasePath": "_content/FoodWeb",
+      "RelativePath": "about_us/marek-mucha-tAFWFWrWGyE-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\about_us\\marek-mucha-tAFWFWrWGyE-unsplash.jpg"
     },
     {
       "Identity": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\wwwroot\\admin_assets\\css\\sb-admin-2.css",
@@ -33779,6 +33796,23 @@
       "OriginalItemSpec": "wwwroot\\offers\\adam-jaime-oFljzK61O1s-unsplash.jpg"
     },
     {
+      "Identity": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\wwwroot\\offers\\marek-mucha-tAFWFWrWGyE-unsplash.jpg",
+      "SourceId": "FoodWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\wwwroot\\",
+      "BasePath": "_content/FoodWeb",
+      "RelativePath": "offers/marek-mucha-tAFWFWrWGyE-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\offers\\marek-mucha-tAFWFWrWGyE-unsplash.jpg"
+    },
+    {
       "Identity": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\wwwroot\\offers\\nick-fewings-kmLUcvhqhSo-unsplash.jpg",
       "SourceId": "FoodWeb",
       "SourceType": "Discovered",
@@ -33794,6 +33828,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\offers\\nick-fewings-kmLUcvhqhSo-unsplash.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\wwwroot\\offers\\thomas-william-Q3PzwHKpEdc-unsplash.jpg",
+      "SourceId": "FoodWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\wwwroot\\",
+      "BasePath": "_content/FoodWeb",
+      "RelativePath": "offers/thomas-william-Q3PzwHKpEdc-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\offers\\thomas-william-Q3PzwHKpEdc-unsplash.jpg"
     },
     {
       "Identity": "C:\\Users\\DELL 5470 i5\\Desktop\\FoodWeb\\FoodWeb\\wwwroot\\testimonial\\274315666_1142358443260484_1997822315698004606_n.jpg",

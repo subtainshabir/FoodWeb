@@ -111,7 +111,7 @@
                 </div>
 
                 <div class="row gy-4">
-                    <div class="col-lg-7 position-relative about-img" style="background-image: url(assets/img/about.jpg) ;"
+                    <div class="col-lg-7 position-relative about-img" style="background-image: url('/about_us/@Model.about.Image'); background-size: cover; background-position: center;" "
                          data-aos="fade-up" data-aos-delay="150">
                         <div class="call-us position-absolute">
                             <h4>Book a Table</h4>
@@ -462,13 +462,13 @@
                         @foreach (var item in Model.offer)
                         {
                             <div class="swiper-slide event-item d-flex flex-column justify-content-end"
-                                 style="background-image: url('@Url.Content("~/wwwroot/offers/" + item.Image)')">
+                                 style="background-image: url('/offers/@item.Image')">
                                 <h3>@item.OfferName</h3>
                                 <div class="price align-self-start">@item.Price</div>
                                 <p class="description">
                                     @item.Desc
                                 </p>
-                                <div>Generated Image URL: @Url.Content("~/wwwroot/offers/" + item.Image)</div>
+                                
                             </div>
                         }
                        
